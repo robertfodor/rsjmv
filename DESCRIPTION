@@ -1,13 +1,13 @@
 Package: rsjmv
 Title: RSJMV - Statistical Functions for Psychological Research
 Version: 0.1.0
-Authors@R: person(given = "Róbert", family = "Fodor", email = "fodor.robert@gmail.com", role = c("aut", "cre"))
+Authors@R: person(given = "Róbert", family = "Fodor", email = dev"fodor.robert@gmail.com", role = c("aut", "cre"))
 Description: A collection of helper functions for common statistical
     routines in psychological research, including detailed descriptive
     statistics, correlation matrices, and formatted regression tables.
 License: MIT
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
 Imports:
     tidyverse,
     boot,

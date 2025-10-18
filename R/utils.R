@@ -11,40 +11,6 @@ out_of_bounds <- function(x, na.rm = TRUE) {
   upper_bound <- q[2] + 1.5 * iqr
   x < lower_bound | x > upper_bound
 }
-```
-
-### Step 3: Build and Install the Package
-
-With the files in place, open your `psystats.Rproj` in RStudio. The following commands, run in the console, will build the documentation, check for issues, and install the package on your system.
-
-1.  **Generate Documentation:** This command reads the `#'` comments (called 'Roxygen' comments) and creates the `NAMESPACE` file and the official documentation files.
-
-```R
-devtools::document()
-```
-
-2.  **Check the Package:** This is a crucial quality control step. It runs a series of automated checks to ensure your package is well-formed. It will flag any potential problems.
-
-```R
-devtools::check()
-```
-
-3.  **Install the Package:** This command bundles your package and installs it into your R library, just like any package from CRAN.
-
-```R
-devtools::install()
-```
-
-### Step 4: Use Your New Library
-
-Once installed, you can load and use your package in any R script or session.
-
-1.  Restart your R session (Ctrl+Shift+F10 in RStudio) for a clean start.
-2.  Load your library and use your functions.
-
-```R
-# Load your custom library
-library(psystats)
 
 # Create some sample data
 set.seed(123)
