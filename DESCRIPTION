@@ -24,3 +24,5 @@ Imports:
 Suggests:
     knitr,
     kableExtra
+URL: https://github.com/robertfodor/rsjmv
+BugReports: https://github.com/robertfodor/rsjmv/issues
