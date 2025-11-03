@@ -76,7 +76,7 @@ ci_var_chisq <- function(x, ci_level) {
 #' @return If output_kable is TRUE, prints a kable object and returns the
 #'   data.frame invisibly. If FALSE, returns the data.frame visibly.
 #' @export
-calculate_descriptives <- function(data,
+descriptives <- function(data,
                                    ci_level = 0.95,
                                    mean_ci_method = c("t", "normal", "bootstrap", "none"),
                                    sd_ci_method = c("chisq", "bootstrap", "none"),

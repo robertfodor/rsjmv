@@ -22,7 +22,7 @@ sample_df <- data.frame(
 )
 
 # Use your custom functions
-calculate_descriptives(sample_df)
+descriptives(sample_df)
 
 create_correlation_table(
   data = sample_df,
