@@ -2,6 +2,7 @@
 
 export(create_correlation_table)
 export(descriptives)
+export(diagnose_regression)
 export(lmtable)
 export(out_of_bounds)
 export(theme_rfapa)
